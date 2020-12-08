@@ -8,7 +8,7 @@
   
         <div class="row text-center container">
                 @foreach($projects as $project)
-                        <div class="col-xs-12 col-sm-6 col-md-4 ">
+                        <div class="col-xs-12 col-sm-6 col-md-4 img-fluid img-thumbnail">
                                 <a href="{{ $project->permalink }}" class="text-black no-underline">
                                 <img src="{{ $project->thumb }}" alt="{{ $project->alt }}" title="{{ $project->title }}">
                                 <p class="">{{ $project->name }}</p>

@@ -6,7 +6,7 @@
   </header>
   <div class="entry-content leading-normal">
     <section >
-      <img class="mb-5 pb-8 border-b" src="{{ $project->img->url }}" alt="{{ $project->img->alt }}">
+      <img class="img-fluid " src="{{ $project->img->url }}" alt="{{ $project->img->alt }}">
     
     </section>
 
